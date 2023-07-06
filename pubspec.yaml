@@ -1,0 +1,37 @@
+
+name: bmi
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/  # Include the fonts directory
+
+  fonts:  # Add the fonts section
+    - family: My1  # Font family name
+      fonts:
+        - asset: assets/fonts/my1.ttf  # Path to the font file
+    - family: My2  # Font family name
+      fonts:
+        - asset: assets/fonts/my2.ttf 
+    - family: My3  # Font family name
+      fonts:
+        - asset: assets/fonts/my3.ttf 
+    - family: My4  # Font family name
+      fonts:
+        - asset: assets/fonts/my4.ttf         
